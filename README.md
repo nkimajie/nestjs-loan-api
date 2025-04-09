@@ -10,13 +10,13 @@ This is a simple RESTful API built with NestJS to handle loan data with role-bas
 Unzip the project or clone it from the repository.
 
 ```
-git clone <your-repo-url>
+git clone nest-loan-api
 cd nest-loan-api
 ```
 
 ### 2. Install Dependencies
 
-Make sure Node.js (v16 or later) is installed.
+Make sure Node.js is installed.
 
 ```
 npm install
@@ -36,11 +36,10 @@ To access protected endpoints, you must log in via the `/login` route and use th
 
 ### Sample Staff Credentials
 
-| Role       | Email                   | Password       |
-|------------|-------------------------|----------------|
-| superAdmin | edwinjohn@example.com   | 12345Pass      |
-| admin      | jp@example.com          | 1234567Pass    |
-| staff      | ladam@example.com       | 123456789Pass  |
+ Role        Email                    Password       
+ superAdmin  edwinjohn@example.com    12345Pass      
+ admin       jp@example.com           1234567Pass    
+ staff       ladam@example.com        123456789Pass  
 
 ## API Endpoints
 
